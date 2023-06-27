@@ -1,0 +1,443 @@
+body
+{
+    background-color: #ADBADD;
+}
+h1
+{
+    color: black;
+    font-weight: bold;
+    font-family: helvetica serif;
+    padding-left: 20px;
+}
+navigation_bar
+{
+    display: flex;
+    flex-direction: row;
+    float:right ;
+
+}
+#about-me
+{
+    display: flex;
+    box-sizing: border-box;
+    border: solid purple;
+    width: 100px;
+    height: 50px;
+    align-items: center;    
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 5px;    
+}
+#my-work
+{
+    display: flex;
+    box-sizing: border-box;
+    border: solid purple;
+    width: 100px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+#contact-me
+{
+    display: flex;
+    box-sizing: border-box;
+    border: solid purple;
+    width: 100px;
+    height: auto;
+    justify-content: center;
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+#my-resume
+{
+    display: flex;
+    box-sizing: border-box;
+    border: solid purple;
+    width: 100px;
+    height: auto;
+    justify-content: center;
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+#section-1
+{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border: solid black;
+    height: 325px;
+    margin-bottom: 20px;
+}
+#pic-title
+{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    left: 10px;
+}
+#statement
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: ivory;
+    position: absolute;
+    right: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#personal_picture
+{
+    float: left;
+    position: absolute;
+    left: 10px;
+    width: 255px;
+}
+#background_image
+{
+
+    height: 320px;
+    width: 100%;
+}
+#statement
+{
+    font-size: 20px;
+    color: ivory;
+    position: absolute;
+    right: 10px;
+}
+.section2
+{
+    display: flex;
+    box-sizing: border-box;
+    border: solid black;
+    margin-bottom: 20px;
+}
+#bio-title
+{
+    font-size: 22px;
+    position: absolute;
+    left: 20px;
+    padding-left: 40px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+#my_bio
+{
+    text-align: left;
+    padding-left: 200px;
+}
+#work-title
+{
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+#project_container
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#project_1
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    right: 300px;
+    padding: 5px;
+    justify-content: center;        
+    align-items: center;
+    margin-top: 40px;
+    background-color: #00D2FF;
+}
+#project_1:hover
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    right: 150px;
+   
+    background-image: url("horiseon  page image.png");
+}
+#project_2
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    padding: 5px;
+    justify-content: center;
+    margin-top: 40px;
+   
+    right: 30px;
+    align-items: center;
+    background-color: #ADBADD;
+}
+#project_2:hover
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    right: 10px;
+    margin-top: 40px;
+    background-image: url("module-2assignment.png");
+
+}
+
+#project_3
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    right: 30px;
+    margin-top: 120px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #00FF60;
+}
+#project_4
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    right: 300px;
+    margin-top: 120px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF8E00;
+}
+section3
+{
+    display: flex;
+    box-sizing: border-box;
+    border: solid black;
+    height: 200px;
+    align-content: center;
+    background-color: #00FFCD;
+}
+#bottom-section
+{
+    margin-top: 20px;
+    display: flex;
+    box-sizing: border-box;
+    border: solid black;
+    height: 50px;
+}
+#contact_me
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 40px;
+    top: 790px;
+}
+#email
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 500px;
+    padding-top: 5px;
+    top: 790px;
+}
+#github
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 580px;
+    padding-top: 5px;
+    top: 790px;
+}
+#linked_in
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 660px;
+    padding-top: 5px;
+    top: 790px;
+}
+#tel_contact
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 840px;
+    padding-top: 5px;
+    align-items: center;
+}
+#phone_number
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 940px;
+    padding-top: 5px;
+    top: 790px
+}
+@media screen and (max-width: 680px)
+{
+    #statement
+    {
+        font-size: 15px;
+    }
+    #project_1
+    {
+        display: flex;
+        flex-wrap: wrap;
+        border: solid black;
+        height: 50px;
+        width: 200px;
+        position: absolute;
+        right: 250px;
+        padding: 5px;
+        justify-content: center;
+        top: 660px;
+        align-items: center;
+        background-color: #00D2FF;
+    }
+    #project_1:hover {
+        display: flex;
+        flex-wrap: wrap;
+        border: solid black;
+        height: 100px;
+        width: 250px;
+        position: absolute;
+        right: 200px;
+        bottom: 80px;
+        background-image: url("horiseon  page image.png");
+    }
+    #project_2
+    {
+        display: flex;
+        flex-wrap: wrap;
+        border: solid black;
+        height: 50px;
+        width: 200px;
+        position: absolute;
+        padding: 5px;
+        justify-content: center;
+        top: 660px;
+        right: 20px;
+        align-items: center;
+        background-color: #ADBADD;
+    }
+    #project_2:hover
+    {
+        display: flex;
+        flex-wrap: wrap;
+        border: solid black;
+        height: 100px;
+        width: 300px;
+        position: absolute;
+        right: 10px;
+        bottom: 80px;
+        background-image: url("module-2assignment.png");
+    }
+    #project_3
+    {
+        display: flex;
+        flex-wrap: wrap;
+        border: solid black;
+        height: 50px;
+        width: 200px;
+        position: absolute;
+        right: 20px;
+        top: 660px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        background-color: #00FF60;
+    }
+    #project_4
+    {
+        display: flex;
+        flex-wrap: wrap;
+        border: solid black;
+        height: 50px;
+        width: 200px;
+        position: absolute;
+        right: 250px;
+        top: 660px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        background-color: #FF8E00;
+    }
+    #work-title
+    {
+        font-size: 22px;
+        padding-top: 5px;
+    }
+
+    #contact_me
+    {
+        position: absolute;
+        top: 905px;
+        font-size: 12px;
+
+    }
+    #email
+    {
+        position: absolute;
+        top: 900px;
+        left: 140px;
+        font-size: 12px;
+    }
+    #github
+    {
+        position: absolute;
+        top: 900px;
+        left: 180px;
+        font-size: 12px;
+    }
+    #linked_in
+    {
+        position: absolute;
+        top: 900px;
+        left: 240px;
+        font-size: 12px;
+    }
+    #tel_contact
+    {
+        position: absolute;
+        top: 890px;
+        left: 320px;
+        font-size: 12px;
+    }
+    #phone_number
+    {
+        position: absolute;
+        top: 900px;
+        left: 380px;
+        font-size: 12px;
+    }
+
+}

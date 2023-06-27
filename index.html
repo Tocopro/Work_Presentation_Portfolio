@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<!--------------------------the head section floating to the left--------------------------------------------------->
+<body>
+<h1>
+    Nicholas Wachira
+</h1>
+<!--------navigation bar inside a flex box with four links to scroll down page where the section is located ---------->
+<navigation_bar>
+    <a id="about-me" href="#bio-title" >About Me</a>
+    <a id="my-work" href="#project_container" >My Work</a>
+    <a id="contact-me" href="#bottom-section" >Contact Me</a>
+    <a id="my-resume" href="./index_reume.html" >My Resume</a>
+</navigation_bar>
+<!---------------personal profile picture adjacent to a background picture all wrapped in a flex box------->
+<section1 id="section-1">
+    <img id="personal_picture" src="Persons_Image.jpg" alt="Oops!">
+    <img id="background_image" src="nature-background.jpg" alt="Oops!">
+    <span id="pic-title">Profile Picture</span>
+    <span id="statement">"You get what you put in"<br> -Anonymous</span>
+</section1>
+<!----------------about section wrapped in a flexbox with a short paragraph    ------------------------------>
+<section2 id="section-2">
+    <span id="bio-title">About Me</span>
+    <p id="my_bio">
+        I am currently enrolled in the full stack Bootcamp program at University of Minnesota.
+        Before this, I worked in healthcare for more than five years.
+        There are a lot of changes in the Healthcare industry. for instance there is a transition
+        of record keeping from paper to computers.
+    </p>
+</section2>
+<!---------the work section all wrapped in a flex box with four containers two have the current project------>
+<section3 id="section-3">
+    <span id="work-title">My Work</span>
+    <!------------the first two projects have a working link------------------>
+    <div id="project_container">
+        <!-----------container one with module 1 project and on mouse hover the image gets larger ---------->
+        <a  id= "project_1" href="https://tocopro.github.io/code_refactor/" >Project Module 1<br> Refactoring a WebPage</a>
+        <!----------container two with module 2 project on mouse hover the image gets larger--------------->
+        <a id="project_2" href="project_2" >Project Module 2</a>
+        <a id="project_3" href="project3" >Project Module 3</a>
+        <a id="project_4" href="project_4" >Project Module 4</a>
+    </div>
+</section3>
+<!------------------contacts at the footer section, all place holders they do not link to anything-->
+<footer id="bottom-section">
+        <a id="contact_me" href="contact_me" >Contact Me</a>
+        <a id="email" href="Email_address_link" >Email</a>
+        <a id="github" href="GitHub_account" >GitHub</a>
+        <a id="linked_in" href="linked_account" >Linked In</a>
+    <span id="tel_contact">Telephone<br>Contact</span>
+        <span id="phone_number"> (507) 469 1257 </span>
+</footer>
+</body>
+</html>
